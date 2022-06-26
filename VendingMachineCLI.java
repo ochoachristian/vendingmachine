@@ -29,7 +29,7 @@ public class VendingMachineCLI {
 		System.out.println("     Welcome To Vendo-Matic 800     ");
 		System.out.println("************************************");
 		Scanner sc = new Scanner(System.in);
-		VendingMachine v  = new VendingMachine(); // <-- THIS was initially inside the While(True), in line 35, new instance was created everytime
+		VendingMachine v  = new VendingMachine(); // <-- THIS was initially inside the While(True), new instance was created everytime
 		// in a new instance of vendingMachine, amount is initialized to 0, currentStock is set to 5;
 		v.createVendingMachine(file);
 
